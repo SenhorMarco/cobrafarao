@@ -1,0 +1,1 @@
+Projeto do jogo Snake recriado usando C++ e SDL2
