@@ -263,6 +263,10 @@ bool iniciar() {
 void sair() {
 	SDL_DestroyRenderer( renderer );
 	SDL_DestroyWindow( janela );
+	for(setor_cobra* setor : minha_cobra->setores_cobra){
+        delete setor;
+    }
+    delete minha_cobra;
 	delete verde;
 	delete cinza;
 	SDL_Quit();
