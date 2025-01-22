@@ -1,1 +1,3 @@
-Projeto do jogo Snake recriado usando C++ e SDL2
+Snake recriado com C++ e SDL
+
+A tecla ESC pausa e despausa o jogo. O jogo reinicia quando você morre.
